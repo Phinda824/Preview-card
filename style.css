@@ -17,14 +17,13 @@
 }
 .card{
     width: 850px;
-    height: 320px;
+    height: 350px;
     background-color: white;
     border-radius: 15px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-    display: none;
 }
 .image{
     width: 300px;
@@ -41,14 +40,8 @@
     margin-left: 25px;
     padding: 15px;
 }
-.card-text h1{
-    font-size: 20px;
-    font-weight: 400;
-    color: #505f64;
-    margin-bottom: 7px;
-}
 .card-text h2{
-    font-size: 36px;
+    font-size: 30px;
     font-weight: 500;
     color: #0b3f50;
     margin-bottom: 7px;
@@ -59,28 +52,59 @@
     margin-bottom: 10px;
 }
 .card-text p{
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
     color: #505f64;
     margin-bottom: 20px;
 }
-.btn{
-    width: 150px;
-    height: 40px;
+.line{
+    width: 100%;
+    border-bottom: 0.05px solid #9dbbc5;
+    margin-bottom: 10px;
+}
+.time h1{
+    color: #0b3f50;
     font-size: 20px;
-    font-weight: 600;
-    background-color: #0c80a7;
-    color: white;
-    border: none;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.time ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.time ul li a{
+    width: 100px;
+    height: 35px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #5d7b85;
+    background-color: #cddde2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    text-decoration: none;
+}
+.time ul li a.current{
+    background-color: #505f64;
+    color: #e1e8eb;
+}
+.ingre-link{
+    font-size: 16px;
+    font-weight: 400;
+    color: #5d7b85;
+    margin-top: 25px;
     cursor: pointer;
-    transition: 1.5s ease;
+    transition: 2s ease;
 }
-.btn:hover{
-    border-radius: 5px;
-    background-color: #a8dbec;
-    color: #0c80a7;
-    border: 0.5px solid #0c80a7;
+.ingre-link:hover{
+    color: blue;
+    text-decoration: underline;
 }
+
+
 
 /***************Ingredients****************/
 .ingredients{
@@ -90,6 +114,7 @@
     background-size: cover;
     border-radius: 15px;
     padding: 20px;
+    display: none;
 }
 .ingre-card{
     width: 100%;
