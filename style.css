@@ -91,49 +91,38 @@
     background-color: #505f64;
     color: #e1e8eb;
 }
-.ingre-link{
-    font-size: 16px;
-    font-weight: 400;
-    color: #5d7b85;
-    margin-top: 25px;
-    cursor: pointer;
-    transition: 2s ease;
-}
-.ingre-link:hover{
-    color: blue;
-    text-decoration: underline;
-}
 
+@media screen and (max-width: 400px) {
+    .card{
+        width: 350px;
+        height: 550px;
+        flex-direction: column;
+    }
+    .image{
+        width: 100%;
+        border-radius: 15px 15px 0 0;
+    }
+    .image img{
+        width: 100%;
+        border-radius: 15px 15px 0 0;
+    }
+    .card-text{
+        width: 100%;
+        margin-left: 0;
+        margin-top: 15px;
+    }
+    .card-text h2{
+        font-size: 22px;
+    }
+    .price{
+        font-size: 18px;
+    }
 
-
-/***************Ingredients****************/
-.ingredients{
-    width: 400px;
-    height: 550px;
-    background-image: url(./images/Easy-Macaroni-Salad-Recipe-1-of-1-8.jpg);
-    background-size: cover;
-    border-radius: 15px;
-    padding: 20px;
-    display: none;
-}
-.ingre-card{
-    width: 100%;
-    height: 380px;
-    background-color: white;
-    border-radius: 20px;
-    margin-top: 130px;
-    padding: 20px;
-}
-.ingre-card h1{
-    font-size: 24px;
-    font-weight: 500;
-    color: #0b3f50;
-    text-align: center;
-}
-.ingre-card ul{
-    padding: 20px 12px 0 20px;
-}
-.ingre-card ul li{
-    margin-bottom: 15px;
-    color: #505f64;
+    .time h1{
+        font-size: 18px;
+    }
+    .time ul li a{
+        width: 70px;
+        font-size: 14px;
+    }
 }
