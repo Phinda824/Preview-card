@@ -16,14 +16,15 @@
     align-items: center;
 }
 .card{
-    width: 800px;
-    height: 300px;
+    width: 850px;
+    height: 320px;
     background-color: white;
     border-radius: 15px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
+    display: none;
 }
 .image{
     width: 300px;
@@ -38,4 +39,54 @@
 }
 .card-text{
     margin-left: 25px;
+    padding: 15px;
+}
+.card-text h1{
+    font-size: 20px;
+    font-weight: 400;
+    color: #505f64;
+    margin-bottom: 7px;
+}
+.card-text h2{
+    font-size: 36px;
+    font-weight: 500;
+    color: #0b3f50;
+    margin-bottom: 7px;
+}
+.price{
+    font-size: 20px;
+    color: #779fac;
+    margin-bottom: 10px;
+}
+.card-text p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #505f64;
+    margin-bottom: 20px;
+}
+.btn{
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #0c80a7;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: 1.5s ease;
+}
+.btn:hover{
+    border-radius: 5px;
+    background-color: #a8dbec;
+    color: #0c80a7;
+    border: 0.5px solid #0c80a7;
+}
+
+/***************Ingredients****************/
+.ingredients{
+    width: 350px;
+    height: 550px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px;
 }
